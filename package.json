@@ -1,16 +1,19 @@
 {
-  "name": "postgraphile-plugin-fulltext-filter",
+  "name": "@lukeramsden/postgraphile-plugin-fulltext-filter",
   "version": "1.0.0-beta.7",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Full text searching on tsvector fields for use with postgraphile-plugin-connection-filter",
   "main": "index.js",
   "repository": {
-    "url": "git+https://github.com/mlipscombe/postgraphile-plugin-fulltext-filter.git",
+    "url": "git+https://github.com/lukeramsden/postgraphile-plugin-fulltext-filter.git",
     "type": "git"
   },
   "author": "Mark Lipscombe",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mlipscombe/postgraphile-plugin-fulltext-filter.git"
+    "url": "https://github.com/lukeramsden/postgraphile-plugin-fulltext-filter.git"
   },
   "scripts": {
     "test": "scripts/test jest -i",
@@ -19,11 +22,11 @@
   "dependencies": {
     "graphile-build-pg": "^4.2.0",
     "pg-tsquery": "^6.4.2",
-    "postgraphile-plugin-connection-filter": "^1.0.0-beta.28"
+    "postgraphile-plugin-connection-filter": "^2.0.0"
   },
   "peerDependencies": {
     "postgraphile-core": "^4.2.0",
-    "postgraphile-plugin-connection-filter": "^1.0.0-beta.28"
+    "postgraphile-plugin-connection-filter": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "^5.10.0",
